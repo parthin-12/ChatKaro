@@ -1,0 +1,33 @@
+.messageBox{
+    width: 40%;
+    padding:1vmax;
+    margin:1vmax;
+    border-radius: 0.5vmax;
+    overflow-wrap: break-word;
+    display:inline-block;
+    clear: both;
+    font-size: 1vmax;
+    font-weight: 300;
+    font-family:cursive;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.8);
+}
+
+
+.right{
+    position:relative;
+    left: 50%;
+    background-color:rgb(0, 70, 0);
+    color: white;
+}
+
+.left{
+
+    background-color: rgb(45, 45, 45);
+    color: white;
+}
+
+.admin{
+    background-color: rgb(197, 0, 39);
+    color: white;
+
+}

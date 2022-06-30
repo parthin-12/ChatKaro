@@ -1,0 +1,102 @@
+.chatPage{
+    background:linear-gradient(rgb(206, 206, 206),rgb(67, 67, 67));
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chatContainer{
+    background-color:rgb(169, 169, 169);
+    width: 50%;
+    height: 66%;
+    box-shadow: 2px 4px 7px rgba(0,0,0,0.8);
+    
+}
+
+.header{
+    border: 4px solid rgba(0,0,0,0.25);
+    background-color: white;
+    height: 12%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header > img{
+    position:absolute;
+    cursor: pointer;
+    left: 72.5%;
+    width: 1.1vmax;
+    height: 1.1vmax;
+    filter: invert();
+}
+
+.header >h1{
+    font-size: 2vmax;
+    display: flex;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.header >h1>div{
+    color: rgb(255, 28, 0);
+}
+
+
+.chatBox{
+    height: 77%;
+    background-image: url("../../Images/chat.jpg");
+    box-sizing: border-box;
+    overflow-y: auto;
+}
+
+
+.chatForm{
+    /* border-top: 2px solid rgba(0, 0, 0, 0.25); */
+    height: 11%;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.chatForm >:first-child{
+    width: 80%;
+    outline: none;
+    border: none;
+    font-size: 1.4vmax;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 1vmax;
+}
+
+.chatSendBtn>img{
+    width: 2.5vmax;
+    filter: brightness(100) invert();
+    box-sizing: border-box;
+    transition: all 0.3s;
+
+}
+
+.chatSendBtn{
+    width: 20%;
+    outline: none;
+    border: none;
+    background-color: rgb(255, 65, 0);
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: all 0.5s;
+    border-left: 3px solid black;
+}
+
+.chatSendBtn:hover{
+    background-color: rgb(235, 59, 0);
+    transform: scale(1.01);
+    box-sizing: border-box;
+}
+
+.chatSendBtn:hover img{
+    transform: translateX(0.9vmax);
+}
+

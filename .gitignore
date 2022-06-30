@@ -1,0 +1,25 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/server/node_modules
+/chartKaro.com/node_modules
+/chartKaro.com/.pnp
+/chartKaro.com/.pnp.js
+
+# testing
+/chartKaro.com/coverage
+
+# production
+/chartKaro.com/build
+
+# misc
+/server/config/config.env
+/chartKaro.com/.DS_Store
+/chartKaro.com/.env.local
+/chartKaro.com/.env.development.local
+/chartKaro.com/.env.test.local
+/chartKaro.com/.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
