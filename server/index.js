@@ -15,7 +15,7 @@ const port= process.env.PORT ;
 const users=[{}];
 
 app.use(cors());
-app.get("/",(req,res)=>{
+app.get("/api/v1/",(req,res)=>{
     res.send("HELL ITS WORKING");
 })
 
