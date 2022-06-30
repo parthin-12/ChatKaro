@@ -8,7 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon server/index.js",
     "start": "node server/index.js",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false && npm install --prefix chartKaro.com && npm run build --prefix chartKaro.com"
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false && npm install --prefix chartkaro.com && npm run build --prefix chartaro.com"
   },
   "author": "",
   "license": "ISC",
